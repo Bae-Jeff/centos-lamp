@@ -91,7 +91,7 @@ vhost_install(){
 	sudo yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm -y
 	sudo yum-config-manager --enable remi-php73 -y
 	sudo yum install php php-common php-opcache php-mcrypt php-cli php-gd php-curl php-mysqlnd -y
-	sudo yum install mariadb-server
+	sudo yum install mariadb-server -y
 	sudo systemctl enable mariadb
 	sudo systemctl start mariadb
 	sudo yum install php-soap -y
