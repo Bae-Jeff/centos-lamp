@@ -7,7 +7,17 @@ centOS 기타 버전이나 rockyOS 에서는 테스트 해보지 않았습니다
 
 ## 설치 방법
 
+### AMP 설치
 $ ./vhost.sh install
+
+### 가상서버 관리
+
+$ ./vhost.sh add   // 새 가상서버 추가 \
+
+$ ./vhost.sh del   // 생성된 가상서버 삭제  \
+
+$ ./vhost.sh list   // 생성된 가상서버 목록조회
+ 
 
 ## 참고 소스
 
