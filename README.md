@@ -12,9 +12,9 @@ $ ./vhost.sh install
 
 ### 가상서버 관리
 
-$ ./vhost.sh add   // 새 가상서버 추가 \
+$ ./vhost.sh add   // 새 가상서버 추가 
 
-$ ./vhost.sh del   // 생성된 가상서버 삭제  \
+$ ./vhost.sh del   // 생성된 가상서버 삭제  
 
 $ ./vhost.sh list   // 생성된 가상서버 목록조회
  
