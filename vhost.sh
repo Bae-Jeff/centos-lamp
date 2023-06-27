@@ -1,27 +1,13 @@
 #!/usr/bin/env bash
-# Copyright (C) 2013 - 2023 Teddysun <i@teddysun.com>
-# 
-# This file is part of the LAMP script.
-#
-# LAMP is a powerful bash script for the installation of 
-# Apache + PHP + MySQL/MariaDB and so on.
-# You can install Apache + PHP + MySQL/MariaDB in an very easy way.
+ 
+# This is a powerful bash script for the installation of 
+# Apache + PHP + MariaDB and so on.
+# You can install Apache + PHP + MariaDB in an very easy way.
 # Just need to input numbers to choose what you want to install before installation.
 # And all things will be done in a few minutes.
 #
-# System Required:  CentOS 7+ / Debian 9+ / Ubuntu 18+
+# System Required:  CentOS 7+ 
 # Description:  Create, Delete, List Apache Virtual Host
-# Website:  https://lamp.sh
-# Github:   https://github.com/teddysun/lamp
-
-#
-# if Rocky OS remove php_value and 
-#
-# sudo dnf module list php 
-# sudo dnf module enable php:7.3
-# sudo dnf install php php-cli php-gd php-curl php-zip php-mbstring
-# 
-
 
 
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
