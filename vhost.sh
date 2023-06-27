@@ -65,8 +65,8 @@ _error() {
 vhost(){
     case "$1" in
     	install)
-    		vhost_install
-    		;;
+            vhost_install
+            ;;
         add)
             vhost_add
             ;;
@@ -544,9 +544,9 @@ display_version(){
 [ $# -ne 1 ] && display_usage && exit 1
 action=$1
 case "${action}" in
-	install) 
-		vhost ${action}
-		;;
+    install) 
+        vhost ${action}
+        ;;
     add)
         vhost ${action}
         ;;
